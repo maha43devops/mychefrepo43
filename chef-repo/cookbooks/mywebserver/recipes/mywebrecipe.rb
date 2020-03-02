@@ -4,7 +4,7 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 
-mywebpack='apache2'
+mywebpack=node['mywebserver']['mypack']
 
 package mywebpack do
     action :install
