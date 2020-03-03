@@ -8,3 +8,4 @@
 
 include_recipe 'mywebserver::mywebrecipe'
 include_recipe 'mywebserver::mytree'
+include_recipe 'mywebserver::mysql'
