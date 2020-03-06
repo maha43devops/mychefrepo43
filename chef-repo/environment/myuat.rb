@@ -1,3 +1,3 @@
-name 'environment_name'
-description 'environment_description'
-cookbook OR cookbook_versions  'cookbook' OR 'cookbook' => 'cookbook_version'
+name 'UAT'
+description 'my uat environment'
+cookbook_versions  'mywebserver' => '0.2.1'

@@ -1,3 +1,3 @@
-name "dbrole"
-description "An  Chef db role"
+name "DBROLE"
+description "my DB  role"
 run_list "recipe[java]","recipe[mywebserver::mysql]"
